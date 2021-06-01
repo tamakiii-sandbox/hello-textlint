@@ -1,6 +1,12 @@
 version: 1
+imports:
+  - dependency/prh.yml/ja/kanji-open.yml
+  - dependency/prh.yml/ja/spoken.yml
+  - dependency/prh.yml/ja/typo.yml
 rules:
   - expected: Google
     specs:
       - from: google
         to: Google
+  - expected: Almin
+    patterns: /almin.js/i
