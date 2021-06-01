@@ -4,6 +4,7 @@
     "preset-ja-spacing": true,
     "preset-ja-technical-writing": true,
     "spellcheck-tech-word": true,
+    "ja-no-orthographic-variants": true,
     "prh": {
       "rulePaths": [
         "./prh.yml"
